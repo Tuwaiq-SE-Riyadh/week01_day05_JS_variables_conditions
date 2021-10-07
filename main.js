@@ -35,3 +35,18 @@ function TemperatureConverter(celsius){
     console.log(CelsiusToFahrenheit+"°F is "+ FahrenheitToCelsius +"°C.")
 
 }
+
+
+function WorldTranslator(language){
+
+    if(language == "en"){
+        console.log("Hello World")
+    }
+    else if (language == "ar") {
+        console.log("مرحبا بالعالم")
+    }
+    else if(language == "fr"){
+        console.log("Bonjour le monde")
+    }
+
+}
