@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First lab JS</title>
+        <script>
+            function start()
+{
+    let button=document.getElementById("input");  
+ 
+        button.addEventListener("click", display , false );
+
+} 
+
+function display(){
+    
+    let numberOfChildren;
+    let  partnerName;
+    let geographicLocation;
+    let Job;
+   
+    numberOfChildren = window.prompt("Enter number of children ");
+    partnerName= window.prompt("Enter  partner's name ");
+    geographicLocation= window.prompt("Enter geographic location");
+   Job= window.prompt("EnterJob");
+   document.getElementById("result").innerHTML="You will be a "+Job+" in "+geographicLocation+" and married to "+partnerName+" with "+numberOfChildren+" kids";
+}
+window.addEventListener( "load", start, false );
+        </script>
+
+    </head>
+    <body>
+        <form action="#">
+
+            <p>
+                <input id="input" type="button" value="click me ">
+    
+    
+            </p>
+        </form>
+    
+            <div id="result"></div>
+        </p>
+
+    </body>
+</html>
