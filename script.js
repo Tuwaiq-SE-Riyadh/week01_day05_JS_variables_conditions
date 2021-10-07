@@ -16,3 +16,16 @@ function circumference(radius){
    let c = (2*Math.PI)* radius
    console.log(c);
 }
+
+
+
+function language(lang){
+    
+    
+    if (lang =="English" || lang =="english"){
+        console.log("Hello world");
+    } 
+    else if (lang =="Arabic" || lang =="arabic"){
+        console.log("مرحبا بالعالم");
+    }
+}
