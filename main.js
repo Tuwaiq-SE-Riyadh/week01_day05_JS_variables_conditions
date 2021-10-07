@@ -19,3 +19,20 @@ function theGeometrizer(radius){
     console.log("The area is "+area)
 }
 theGeometrizer(3)
+
+
+
+let lang = "en"
+
+if(lang == "en"){
+    console.log("Hello World");
+}
+else if (lang == "ar") {
+    console.log("مرحبا");
+}
+else if (lang=="fra"){
+    console.log("Mon Amour");
+}
+else {
+    console.log("not a option, try again");
+}
