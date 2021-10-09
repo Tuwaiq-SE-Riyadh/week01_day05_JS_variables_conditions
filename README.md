@@ -1,12 +1,4 @@
 # JavaScript Variables + Conditionals HW
+-Result :
+![image](https://user-images.githubusercontent.com/72529306/136675220-e607f08a-3e12-4659-a3d3-9fb203c6d07d.png)
 
-
-## Steps:
-
-- Create a file here where you put your work: js + html file then commit and push and make a pull request.
-
-## HW:
-
-* [Variables HW](variables_hw.md)
-
-* [Conditionals HW](conditionals_hw.md)
